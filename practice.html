@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Practice Tutorial</title>
+    
+
+<link href="pracstyle.css" rel="stylesheet" type="text/css" />
+ 
+   
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Open+Sans:400,700|Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+
+
+<script src="helpers/modernizr_dev.js"></script>
+  
+
+</head>
+
+<body>
+
+	
+
+<div id="wrapper">
+    	
+
+<header>
+
+
+<div class="floatbox2">
+
+<div class="floatleft">
+
+<img src="img/yogi.jpg" width=50px height=50px alt="Yogi"></img>
+
+</div>  		
+
+<h1>Sun Salutation Yoga Sequence</h1> 
+
+</div>   	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</header>
+
+
+
+<h2 style="text-align:center">Directions: Please read the descriptions and try to do the yoga poses.</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="images/StandingPoseA.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/PoseB.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/MoveC.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/LowLungeD.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/MoveEWarrior.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/LowLungeF.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/MoveGWarrior.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/MoveHDownwardDog.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/MoveIPlank.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/MoveJCobra.jpg" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/MoveKDownwardDog.jpg" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/ForewardFoldMoveL.jpg" style="width:100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/StandingPoseAend.jpg" style="width:100%" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 13</div>
+      <img src="images/StandingPoseA.jpg" style="width:50%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 13</div>
+      <img src="images/PoseB.jpg" style="width:50%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 13</div>
+      <img src="images/MoveC.jpg" style="width:50%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 13</div>
+      <img src="images/LowLungeD.jpg" style="width:50%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 13</div>
+      <img src="images/MoveEWarrior.jpg" style="width:50%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">6 / 13</div>
+      <img src="images/LowLungeF.jpg" style="width:50%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">7 / 13</div>
+      <img src="images/MoveGWarrior.jpg" style="width:50%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">8 / 13</div>
+      <img src="images/MoveHDownwardDog.jpg" style="width:50%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">9 / 13</div>
+      <img src="images/MoveIPlank.jpg" style="width:50%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">10 / 13</div>
+      <img src="images/MoveJCobra.jpg" style="width:50%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">11 / 13</div>
+      <img src="images/MoveKDownwardDog.jpg" style="width:50%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">12 / 13</div>
+      <img src="images/ForewardFoldMoveL.jpg" style="width:50%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">13 / 13</div>
+      <img src="images/StandingPoseAend.jpg" style="width:50%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+	</div>
+
+    <div class="column">
+      <img class="demo cursor" src="images/StandingPoseA.jpg" style="width:100%" onclick="currentSlide(1)" alt="Stand with your feet together and arms at your sides">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/PoseB.jpg" style="width:100%" onclick="currentSlide(2)" alt="Stretch your hands up to the sky and look up ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/MoveC.jpg" style="width:100%" onclick="currentSlide(3)" alt="Step your right foot forward and bend down onto your left knee">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/LowLungeD.jpg" style="width:100%" onclick="currentSlide(5)" alt="Lift your knee off the ground and raise your hands up to the sky">
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="images/MoveEWarrior.jpg" style="width:100%" onclick="currentSlide(6)" alt="Lift your knee off the ground and raise your hands up to the sky">
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="images/LowLungeF.jpg" style="width:100%" onclick="currentSlide(7)" alt="Step your right foot back to standing position. Step your left foot forward and bend down onto your right knee.">
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="images/MoveGWarrior.jpg" style="width:100%" onclick="currentSlide(8)" alt="Lift your knee off the ground and raise your hands up to the sky">
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="images/MoveHDownwardDog.jpg" style="width:100%" onclick="currentSlide(9)" alt="Lift your arms down to the ground and step your left foot back, holding yourself up with your arms and legs. Move your body up towards the sky">
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="images/MoveIPlank.jpg" style="width:100%" onclick="currentSlide(10)" alt="Move your body towards the ground but do not touch the ground">
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="images/MoveJCobra.jpg" style="width:100%" onclick="currentSlide(11)" alt="Lift your head up towards the sky and your body down towards the ground">
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="images/MoveKDownwardDog.jpg" style="width:100%" onclick="currentSlide(12)" alt="Lift your body up towards the sky and hold your body up on your arms and legs ">
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="images/ForewardFoldMoveL.jpg" style="width:100%" onclick="currentSlide(13)" alt="Lift yourself up onto your feet and keep your arms and head lowered towards the ground">
+    </div>
+  <div class="column">
+      <img class="demo cursor" src="images/StandingPoseAend.jpg" style="width:100%" onclick="currentSlide(14)" alt="Lift your arms back to your side and look straight ahead">
+    </div>
+</div>
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+</body>
+</html>
+

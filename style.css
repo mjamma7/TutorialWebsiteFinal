@@ -1,0 +1,176 @@
+body{
+	
+font-family: serif, sans-serif;
+
+
+}
+
+header{
+background:#ADCCD8;
+
+width:96.5%;
+padding:10px 0 0 10px;
+display:table;
+border-radius:10px 10px 0 0;
+}
+header h1{
+	display:table-cell;
+	padding: 0;
+	width: 26%;
+	font-family:'Droid Sans';
+	font-weight:400;
+	line-height:1;
+	letter-spacing:-.05em;
+	color:#0E1826;
+}
+
+header .heading2{
+	display: block;
+	margin-left: 100px;
+	padding-left: 500px;
+	/*width: 80%;*/
+	font-family:'Droid Sans';
+	font-weight:400;
+	line-height:1;
+	letter-spacing:-.05em;
+	color:#0E1826;
+}
+
+header h2{
+font-family:'Droid Sans';
+	font-weight:400;
+	line-height:1;
+	letter-spacing:-.05em;
+	color:#0E1826;
+	padding:10px;
+}
+
+
+.image{
+	float:left;
+	overflow: auto;
+}
+
+
+.navbox{
+background:#284580;
+display:table;
+	padding: 10px;
+	width: 95.7%;
+	font-family:'Droid Sans';
+	font-weight:400;
+	line-height:1;
+	letter-spacing:-.05em;
+	color:#0E1826;
+        border-radius:0 0 10px 10px;
+}
+nav{
+	
+	text-align:right;
+	width:40%;
+	display: table-cell;
+}
+nav ul{
+	display:inline;
+	text-align:center;
+}
+nav li{
+	display:inline-block;
+	list-style-type:none;
+}
+
+nav a{
+	font-family:'Open Sans Condensed';
+	font-weight:700;
+	font-size:1em;
+	display:block;
+	background-color: #8FBDD9;
+	padding:5px;
+	text-decoration: none;
+	font-color:#0E1826;
+	border-radius: 5px;
+}
+
+/*Change the link color on hover*/
+li a:hover{
+	background-color: #FFC94F;
+	color: black;
+}
+/*Change the link after click*/
+nav.active{
+	background-color: #4CAF50;
+}
+
+.yogi1{
+
+border-radius:10px;
+}
+
+.col_wrap .mainbody{
+width:96.5%;
+display:table;
+padding:10px 10px;
+margin:10px;
+border-radius:10px;
+box-shadow:4px 4px 5px #696969;
+background:#ADCCD8;
+}
+
+
+.col_wrap .boxnew{
+      display: block;
+      width: 50%;
+      margins:20px;
+      padding: 40px;
+      background:#FFC94F;
+      text:#0E1826;
+      border-radius:10px;       
+}
+.flex-containerfirst{
+	display: flex;
+	flex-wrap: nowrap;	
+        width:96.5%;
+        margin:10px; 
+}
+
+.flex-containerfirst .box1new{
+      float: left;
+      width: 45.33%;
+      margins:20px;
+      padding: 40px;
+      background:#FFC94F;
+      text:#0E1826;
+      border-radius:10px;       
+}
+
+.box1new{
+display:block;
+width:100%;
+float:none; 
+}
+
+
+.flex-container{
+	display: flex;
+	flex-wrap: nowrap;	
+        width:98%;
+        margin:10px; 
+        box-shadow:4px 4px 5px #696969;
+}
+
+.flex-container .box1{
+      float: left;
+      width: 33.33%;
+      margins:20px;
+      padding: 40px;
+      background:#FFC94F;
+      text:#0E1826;
+ 
+      border-radius:10px; 
+            
+}
+.box1{
+display:block;
+width:100%;
+float:none;
+}
